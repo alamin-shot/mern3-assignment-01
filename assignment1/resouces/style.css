@@ -1,0 +1,717 @@
+body {
+    margin: 0;
+    font-family: "Titillium Web";
+    color: #fff;
+    background: #222;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*===================== NAV_SECTION ===================*/
+.nav-section {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.head-menu {
+    width: 100%;
+}
+
+.header {
+    display: block;
+    overflow: hidden;
+}
+
+.menu-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.head-menu ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.head-menu a {
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0px 25px;
+}
+
+.head-menu a:hover {
+    background-color: rgba(85, 85, 85, 0.25);
+    color: tomato;
+}
+
+
+/*===================== HOME_SECTION ===================*/
+
+.home-section {
+    position: relative;
+    background: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url(img/image_1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    margin: 0;
+}
+
+
+.intro {
+    position: absolute;
+    bottom: 30%;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 80px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.intro p {
+    margin: 0;
+}
+
+.intro .name {
+    margin: 0;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/*============== PORTFOLIO-SECTION ===================*/
+
+
+
+.portfolio-section h2 {
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.item-sections {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.item-sections .section1,
+.section2,
+img {
+    width: 90%;
+}
+
+
+/*=============== SKILLS-SECTION ================*/
+
+.skills-section {
+    padding-bottom: 80px;
+}
+
+.skills-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.l1 {
+    padding-top: 15px;
+}
+
+.l1 h4 {
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.line {
+    background-color: gray;
+    margin-top: 5px;
+    width: 450px;
+    height: 5px;
+    border: solid #444;
+    border-radius: 5px;
+}
+
+.innerline {
+    width: 350px;
+    height: 5px;
+    background-color: #0081ff;
+    border-radius: 5px;
+}
+
+.skill-s-1 {
+    justify-content: space-between;
+}
+
+/*================ RESUME-SECTION ================*/
+
+.resume-section h2 {
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bio {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.education-section h2 {
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.experience-section h2 {
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.ed-sec1 {
+    width: 90%;
+    margin: 20px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.6);
+}
+
+.ed-sec1 h5 {
+    margin: 0;
+    font-size: 20px;
+    color: #acff00;
+    font-weight: 200;
+}
+
+.details {
+    padding: 5px 15px;
+}
+
+
+/*================ ABOUTME-SECTION ================*/
+
+.aboutme-section .resume-items {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutme-section h2 {
+    margin: 40px;
+    font-size: 30px;
+    margin-left: 0
+}
+
+.description p {
+    color: #999;
+    font-size: 21px;
+}
+
+.description .btn {
+    margin: 10px;
+    display: block;
+    padding: 5px;
+}
+
+
+.description button {
+    margin: 10px;
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+    background: dimgray;
+    border: transparent;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 10px
+}
+
+button.btn1 {
+    background: #c4b742;
+}
+
+.description button:hover {
+    cursor: pointer;
+    background-color: khaki;
+}
+
+/*================ TESTIMONIAL-SECTION =============*/
+
+.testimonial-section h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+}
+
+.testimonial-section {
+    margin: 0 auto;
+}
+
+
+
+.client {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.client img {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: transparent;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+.comment p {
+    margin: 0;
+    padding: 10px;
+}
+
+.comment {
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.6);
+}
+
+/*============ SERVICES-SECTION =================*/
+
+.myservices {
+    /*    width: 90%;*/
+}
+
+.myservices h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin: 60px;
+    font-size: 30px;
+}
+
+.services {
+    display: flex;
+}
+
+.web,
+.src,
+.edit {
+    padding: 30px 20px;
+    margin: 20px;
+    width: 380px;
+    text-align: center;
+    background: #333;
+}
+
+.web i.fa-newspaper {
+    font-size: 60px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transpaent;
+    border-radius: 90px;
+    background-color: darkkhaki;
+    margin: 50px auto;
+}
+
+.src i.fa-newspaper {
+    font-size: 60px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transpaent;
+    border-radius: 90px;
+    background-color: darkkhaki;
+    margin: 50px auto;
+}
+
+.edit i.fa-newspaper {
+    font-size: 60px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transpaent;
+    border-radius: 90px;
+    background-color: darkkhaki;
+    margin: 50px auto;
+}
+
+.service-btn {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.services button,
+i.fa-arrow-right {
+    font-size: 17px;
+    border: none;
+    background: none;
+    color: #9eff9e;
+    transition-duration: .2s;
+}
+
+.service-btn button:hover {
+    padding-right: 20px;
+}
+
+
+/*============== BLOG-SECTION ========================*/
+
+.myblog {
+    /*    width: 90%;*/
+    margin: 60px auto;
+}
+
+.myblog h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin: 60px;
+    font-size: 30px;
+}
+
+.blog {
+    padding: 0;
+}
+
+.web img {
+    width: 100%;
+}
+
+.src img {
+    width: 100%;
+}
+
+.edit img {
+    width: 100%;
+}
+
+
+.blog {
+    text-align: left;
+}
+
+.blog h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.blog h3:hover {
+    cursor: pointer;
+    color: darkgoldenrod;
+}
+
+.blog p,
+i {
+    color: #999;
+}
+
+.detailed-section {
+    padding: 15px;
+}
+
+.blog i span {
+    display: inherit;
+    padding: 8px;
+}
+
+
+/*============ CONTACT--SECTION ===================*/
+
+.contact-section h2 {
+    text-align: center;
+    padding-top: 50px;
+    margin: 60px;
+    font-size: 30px;
+}
+
+.contact-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+.personal-info {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.personal-info input {
+    width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #333;
+    padding-left: 20px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.personal-info form textarea {
+    font-size: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background: #333;
+    outline: none;
+    border: none;
+    color: #666;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: 100;
+    resize: none;
+}
+
+.send {
+    margin-top: 30px;
+    font-size: 18px;
+    width: 230px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-color: darkkhaki;
+    border-radius: 50px;
+}
+
+.contact-description h3 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.contact-description h4 {
+    color: mediumslateblue;
+    font-weight: 200;
+}
+
+.contact-details {
+    width: 35%;
+}
+
+/*======= copyrights =========== */
+
+
+.copyright {
+    text-align: center;
+    margin: 60px;
+}
+
+.social-menus {
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-menus i {
+    width: 40px;
+    padding: 20px;
+    border-radius: 60%;
+    background: #333;
+}
+
+/*============== MEDIA QUARY=============*/
+
+@media (max-width:800px) {
+    .services {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web,
+    .src,
+    .edit {
+        width: 100%;
+    }
+
+    .design {
+        padding: 30px;
+    }
+}
+
+
+
+
+@media (max-width:1000px) {
+    .resume-items {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px) {
+    .portfolio-section {
+        font-size: 30px;
+    }
+
+    .item-sections {
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:1000px) {
+    .head-menu ul {
+        font-size: 30px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+}
+
+
+@media(max-width:1000px) {
+    .section {
+        flex-wrap: wrap;
+        font-size: 25px;
+    }
+
+    .client img {
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+    }
+
+    .comment p {
+        padding: 30px;
+    }
+
+    .rh2 {
+        text-align: center;
+    }
+
+    .resume-section h2,
+    .bio {
+        margin: 50px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .bio {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-menus i {
+        width: 50px;
+        padding: 25px;
+        border-radius: 60%;
+        background: #333;
+    }
+
+    .education-section,
+    .experience-section {
+        width: 100%
+    }
+
+    .details h4 i {
+        margin-right: 20px;
+    }
+
+    .detailed-section {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .contact-items {
+        flex-flow: column;
+    }
+
+    .personal-info {
+        align-items: center;
+        width: 100%;
+    }
+
+    .personal-info input {
+        font-size: 27px;
+    }
+
+    .personal-info form textarea {
+        margin-left: 30px;
+        font-family: "Titillium Web";
+        font-size: 27px;
+        font-weight: 500
+    }
+
+    .contact-details {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills-area {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .skill-s-1 {
+        position: relative;
+        left: -180px;
+        overflow: hidden;
+    }
+
+    .skill-s-2 {
+        display: flex;
+        flex-flow: column-reverse;
+        position: relative;
+        left: 180px;
+        overflow: hidden;
+    }
+
+    .l2 h4 {
+        flex-direction: row-reverse;
+    }
+
+    .skill-s-2 h3 {
+        text-align: right;
+    }
+}
